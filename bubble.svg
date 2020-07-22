@@ -1,0 +1,104 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				@keyframes textgrowth {
+          from {
+            font-size: 20px;
+          }
+
+          to {
+            font-size: 60px;
+          }
+        }
+
+				.container {
+					font-family:
+						system-ui,
+						-apple-system,
+						'Segoe UI',
+						Roboto,
+						Helvetica,
+						Arial,
+						sans-serif,
+						'Apple Color Emoji',
+						'Segoe UI Emoji';
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					margin: 0;
+					width: 100%;
+					height: 400px;
+					background-size: 600% 400%;
+					color: white;
+					text-align: center;
+				}
+
+				span {
+					font-size: 20px;
+					line-height: 1.3;
+          color: #551A8B;
+					letter-spacing: 5px;
+					text-transform: uppercase;
+					text-shadow:
+						0 1px 0 #efefef,
+						0 2px 0 #efefef,
+						0 3px 0 #efefef,
+						0 4px 0 #efefef,
+						0 12px 5px rgba(0, 0, 0, 0.1);
+          animation: textgrowth 1s infinite alternate;
+				}
+
+        #a {
+          animation-delay: 0.5s;
+        }
+        #b {
+          animation-delay: 1.0s;
+        }
+        #c {
+          animation-delay: 1.5s;
+        }
+        #d {
+          animation-delay: 2.0s;
+        }
+        #e {
+          animation-delay: 2.5s;
+        }
+        #f {
+          animation-delay: 3.0s;
+        }
+        #g {
+          animation-delay: 3.5s;
+        }
+        #h {
+          animation-delay: 4.0s;
+        }
+        #i {
+          animation-delay: 4.5s;
+        }
+        #j {
+          animation-delay: 5.0s;
+        }
+        #k {
+          animation-delay: 5.5s;
+        }
+			</style>
+			<div class="container">
+        <p>
+          <span id="a">ゴ</span>
+          <span id="b">ゴ</span>
+          <span id="c">ゴ</span>
+          <span id="d">ゴ</span>
+          <span id="e">ゴ</span>
+          <span id="f">ゴ</span>
+          <span id="g">ゴ</span>
+          <span id="h">ゴ</span>
+          <span id="i">ゴ</span>
+          <span id="j">ゴ</span>
+          <span id="k">ゴ</span>
+        </p>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
