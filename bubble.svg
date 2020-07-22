@@ -29,9 +29,9 @@
 					justify-content: center;
 					margin: 0;
 					width: 100%;
-					height: 400px;
+					height: 100px;
 					background-size: 600% 400%;
-					color: white;
+					background-color: white;
 					text-align: center;
 				}
 
@@ -91,12 +91,6 @@
           <span id="c">ゴ</span>
           <span id="d">ゴ</span>
           <span id="e">ゴ</span>
-          <span id="f">ゴ</span>
-          <span id="g">ゴ</span>
-          <span id="h">ゴ</span>
-          <span id="i">ゴ</span>
-          <span id="j">ゴ</span>
-          <span id="k">ゴ</span>
         </p>
 			</div>
 		</div>
