@@ -1,5 +1,64 @@
-<div align="center">
-  <br />
-  <img src="gogo.svg" width="600" height="100" alt="Are you approaching me?" />
-  <br />
+<style>
+  @keyframes textgrowth {
+    from {
+      font-size: 70px;
+    }
+
+    to {
+      font-size: 170px;
+    }
+  }
+
+  .container {
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+  }
+
+  span {
+    font-size: 70px;
+    line-height: 1.3;
+    color: #551a8b;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #efefef, 0 2px 0 #efefef, 0 3px 0 #efefef,
+      0 4px 0 #efefef, 0 12px 5px rgba(0, 0, 0, 0.1);
+    animation: textgrowth 1s infinite alternate;
+  }
+
+  #a {
+    animation-delay: 0.5s;
+  }
+
+  #b {
+    animation-delay: 1s;
+  }
+
+  #c {
+    animation-delay: 1.5s;
+  }
+
+  #d {
+    animation-delay: 2s;
+  }
+
+  #e {
+    animation-delay: 2.5s;
+  }
+</style>
+<div class="container">
+  <p>
+    <span id="a">ゴ</span>
+    <span id="b">ゴ</span>
+    <span id="c">ゴ</span>
+    <span id="d">ゴ</span>
+    <span id="e">ゴ</span>
+  </p>
 </div>
