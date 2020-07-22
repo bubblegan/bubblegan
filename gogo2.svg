@@ -13,16 +13,7 @@
         }
 
 				.container {
-					font-family:
-						system-ui,
-						-apple-system,
-						'Segoe UI',
-						Roboto,
-						Helvetica,
-						Arial,
-						sans-serif,
-						'Apple Color Emoji',
-						'Segoe UI Emoji';
+					font-family: system-ui;
 					display: flex;
 					flex-direction: column;
 					align-items: center;
@@ -63,24 +54,6 @@
         }
         #e {
           animation-delay: 2.5s;
-        }
-        #f {
-          animation-delay: 3.0s;
-        }
-        #g {
-          animation-delay: 3.5s;
-        }
-        #h {
-          animation-delay: 4.0s;
-        }
-        #i {
-          animation-delay: 4.5s;
-        }
-        #j {
-          animation-delay: 5.0s;
-        }
-        #k {
-          animation-delay: 5.5s;
         }
 			</style>
 			<div class="container">
