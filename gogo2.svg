@@ -4,11 +4,11 @@
 			<style>
 				@keyframes textgrowth {
           from {
-            font-size: 20px;
+            font-size: 70px;
           }
 
           to {
-            font-size: 80px;
+            font-size: 170px;
           }
         }
 
@@ -35,7 +35,7 @@
 				}
 
 				span {
-					font-size: 20px;
+					font-size: 70px;
 					line-height: 1.3;
           color: #551A8B;
 					letter-spacing: 5px;
