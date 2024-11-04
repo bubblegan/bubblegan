@@ -1,1 +1,1 @@
-I write JS to pay bills 😢
+I write code to pay bills 😢
