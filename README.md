@@ -1,1 +1,1 @@
-I write code to pay bills 😢
+"Talk is cheap. Show me the code."
