@@ -1,1 +1,1 @@
-*insert some cringe stats or phrase here*
+*placeholder for cringe stats or phrase*
